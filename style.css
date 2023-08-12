@@ -11,6 +11,8 @@ html{
 }
 /* header start */
 header {
+}
+body{
     background-image: url("image/bg2.jpg");
     background-position: center;
     background-attachment: fixed;
@@ -20,8 +22,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
-
 
 .banner-container{
     height: 100vh;
